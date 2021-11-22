@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/mykemeynell.github.io/static/css/main.053c8595.chunk.css",
+    "main.js": "/mykemeynell.github.io/static/js/main.9a492b41.chunk.js",
+    "main.js.map": "/mykemeynell.github.io/static/js/main.9a492b41.chunk.js.map",
+    "runtime-main.js": "/mykemeynell.github.io/static/js/runtime-main.6bd23111.js",
+    "runtime-main.js.map": "/mykemeynell.github.io/static/js/runtime-main.6bd23111.js.map",
+    "static/js/2.45571ae4.chunk.js": "/mykemeynell.github.io/static/js/2.45571ae4.chunk.js",
+    "static/js/2.45571ae4.chunk.js.map": "/mykemeynell.github.io/static/js/2.45571ae4.chunk.js.map",
+    "static/js/3.0dce1ca8.chunk.js": "/mykemeynell.github.io/static/js/3.0dce1ca8.chunk.js",
+    "static/js/3.0dce1ca8.chunk.js.map": "/mykemeynell.github.io/static/js/3.0dce1ca8.chunk.js.map",
+    "index.html": "/mykemeynell.github.io/index.html",
+    "static/css/main.053c8595.chunk.css.map": "/mykemeynell.github.io/static/css/main.053c8595.chunk.css.map",
+    "static/js/2.45571ae4.chunk.js.LICENSE.txt": "/mykemeynell.github.io/static/js/2.45571ae4.chunk.js.LICENSE.txt",
+    "static/media/file-preview.e9fd3141.jpg": "/mykemeynell.github.io/static/media/file-preview.e9fd3141.jpg",
+    "static/media/html-video.3e83e167.png": "/mykemeynell.github.io/static/media/html-video.3e83e167.png",
+    "static/media/uuid-columns.2809655d.jpg": "/mykemeynell.github.io/static/media/uuid-columns.2809655d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6bd23111.js",
+    "static/js/2.45571ae4.chunk.js",
+    "static/css/main.053c8595.chunk.css",
+    "static/js/main.9a492b41.chunk.js"
+  ]
+}
