@@ -36,7 +36,7 @@ const Work = () => {
 
                     {/** Left aligned item */}
                     <div className={`flex md:grid md:grid-cols-2 mt-20 flex-col-reverse md:flex-row`}>
-                        <div className={`flex flex-col md:items-end md:justify-center md:pr-10`}>
+                        <div className={`flex flex-col md:items-start md:justify-center md:pr-10`}>
                             <span className={`font-mono font-light text-xs text-green-300`}>Featured Project</span>
                             <h2 className={`text-gray-300 font-bold text-2xl mb-5`}>FilePreview</h2>
                             <p className={`text-gray-400 md:text-left`}>Input a file, and this library will attempt to generate a preview to display online. This was a requirement on a project I was a part of - I found myself needing to write the same functionality for multiple clients, so I created a library to speed that process up.</p>
