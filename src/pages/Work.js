@@ -1,8 +1,9 @@
 import MainLayout from "../layouts/MainLayout";
 import HtmlVideo from "../assets/images/html-video.png";
 import FilePreview from "../assets/images/file-preview.jpg";
+import Infinity from "../assets/images/infinity-screenshot.png";
 import UUIDColumns from "../assets/images/uuid-columns.jpg";
-import {GitHub} from "../components/Icons";
+import {GitHub, Website} from "../components/Icons";
 
 const Work = () => {
     return (
@@ -17,6 +18,26 @@ const Work = () => {
                                 className={`text-gray-300 font-mono font-light`}>Some Things I've Built</span>
                         </h1>
                     </div>
+                    {/** Left aligned item */}
+                    <div className={`flex md:grid md:grid-cols-2 mt-20 flex-col-reverse md:flex-row`}>
+                        <div className={`flex flex-col md:items-start md:justify-center md:pr-10`}>
+                            <span className={`font-mono font-light text-xs text-green-300`}>Featured Project</span>
+                            <h2 className={`text-gray-300 font-bold text-2xl mb-5`}>Infinity</h2>
+                            <p className={`text-gray-400 md:text-left`}>An expansible CMS built for Laravel, for developers. Comes with out of the box authentication, the rest is up to you!</p>
+                            <p>
+                                <a href={`https://github.com/mykemeynell/InfinityCMS`}
+                                   target={`_blank`}
+                                   className={`inline-flex max-w-min items-center mt-8 px-6 py-4 border border-green-300 text-green-300 hover:border-green-500 hover:text-green-500 transition-colors ease-linear duration-200 rounded font-mono font-light mr-5`}><GitHub className={`mr-3 w-5 h-5 inline-block`}/>GitHub</a>
+                                <a href={`https://getinfinity.dev`}
+                                   target={`_blank`}
+                                   className={`inline-flex max-w-min items-center mt-8 px-6 py-4 border border-green-300 text-green-300 hover:border-green-500 hover:text-green-500 transition-colors ease-linear duration-200 rounded font-mono font-light`}><Website className={`mr-3 w-5 h-5 inline-block`}/>Website</a>
+                            </p>
+                        </div>
+                        <div className={`mb-10 md:mb-0`}>
+                            <img src={Infinity} className={`rounded w-full max-w-lg mx-auto`} alt={`File Preview Icon`}/>
+                        </div>
+                    </div>
+
                     {/** Right aligned item */}
                     <div className={`flex md:grid md:grid-cols-2 mt-20 flex-col md:flex-row`}>
                         <div className={`mb-10 md:mb-0`}>
